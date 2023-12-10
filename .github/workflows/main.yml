@@ -21,6 +21,9 @@ jobs:
 
     - name: Lint Helm chart
       run: helm lint charts/common
+ 
+    - name: Create .deploy directory
+      run: mkdir -p .deploy
 
     - name: Package Helm chart
       run: helm package charts/common --destination .deploy
