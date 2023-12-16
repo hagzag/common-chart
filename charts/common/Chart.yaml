@@ -1,8 +1,9 @@
 apiVersion: v2
 name: common
-description: A Library Helm Chart for grouping common logic between my charts. This chart is not deployable by itself.
-type: library
-version: 0.1.1
+description: A common application Helm Chart for grouping common logic between my charts. This chart is not deployable id you utlize aliases ;).
+# type: library # wannabe
+type: application
+version: 0.2.0
 appVersion: "1.16.0"
 annotations:
   category: Infrastructure
@@ -11,7 +12,6 @@ keywords:
   - common
   - helper
   - template
-  - function
 maintainers:
   - name: hagzag
     url: github.com/hagzag
