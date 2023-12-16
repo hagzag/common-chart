@@ -6,6 +6,27 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 1.16.0
+    created: "2023-12-16T14:04:02.395859704Z"
+    description: A common application Helm Chart for grouping common logic between
+      my charts. This chart is not deployable id you utlize aliases ;).
+    digest: 3ed6960aa0f62bd25aa98035954d864fb884aadad8deb161f08be78c9b8c9fd5
+    keywords:
+    - common
+    - helper
+    - template
+    maintainers:
+    - name: hagzag
+      url: github.com/hagzag
+    name: common
+    type: application
+    urls:
+    - https://github.com/hagzag/common-chart/releases/download/common-0.2.0/common-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      category: Infrastructure
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 1.16.0
     created: "2023-12-16T12:43:55.581093852Z"
     description: A Library Helm Chart for grouping common logic between my charts.
       This chart is not deployable by itself.
@@ -23,4 +44,4 @@ entries:
     urls:
     - https://github.com/hagzag/common-chart/releases/download/common-0.1.1/common-0.1.1.tgz
     version: 0.1.1
-generated: "2023-12-16T12:43:55.581124589Z"
+generated: "2023-12-16T14:04:02.395872849Z"
